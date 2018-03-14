@@ -12,7 +12,7 @@ const returnBackInSecond = () => {};
 const getDeepPropertiesCount = () => {};
 const createSerializedObject = () => {return null};
 const toBuffer = () => {};
-const sortByProto = () => {};
+const sortByProto = (array) => {return array.sort();};
 
 exports.createEnumerableProperty = createEnumerableProperty;
 exports.createNotEnumerableProperty = createNotEnumerableProperty;
